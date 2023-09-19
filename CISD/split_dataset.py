@@ -6,7 +6,7 @@ import os
 import shutil
 import math
 from tqdm import tqdm
-csv_path = './all_image-text_label.csv'
+csv_path = './CISD.csv'
 
 _0 = []
 _1 = []
@@ -42,7 +42,7 @@ random.shuffle(train_set)
 random.shuffle(test_set)
 random.shuffle(valid_set)
 
-data_path = './YNU-CISD/all_data/'
+data_path = './CISD/'
 
 with open('./train_0.8.txt', 'a', encoding='utf-8') as f:
     for arr in tqdm(train_set):
