@@ -1,3 +1,3 @@
 CISD Dataset.
 
-The original image with the url and the corresponding text will be uploaded as soon as possible.
+CISD.csv includes image id, image url, text/caption and image-text sentiment label.
