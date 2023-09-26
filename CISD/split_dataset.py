@@ -42,7 +42,7 @@ random.shuffle(train_set)
 random.shuffle(test_set)
 random.shuffle(valid_set)
 
-data_path = './CISD/'
+data_path = './YNU-CISD/all_data/'
 
 with open('./train_0.8.txt', 'a', encoding='utf-8') as f:
     for arr in tqdm(train_set):
